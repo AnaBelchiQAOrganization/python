@@ -19,7 +19,7 @@ multiplicacion = numero_1 * numero_2
 # 1.1.4 división de dos números
 division = numero_1 / numero_2
 
-# 2 Mostramos el resultado mediante le comando print
+# 2 Mostramos el resultado mediante el comando print
 
 print("El resultado de la suma es:", suma)
 print("El resultado de la resta es:", resta)
