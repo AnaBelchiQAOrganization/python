@@ -22,7 +22,7 @@ print("Precio sin IVA=", precio_sin_iva, "€")
 
 # 4 Añadimos el 21% de IVA
 
-precio_con_iva = precio_sin_iva + (precio_sin_iva * 0.21)
+precio_con_iva = precio_sin_iva + precio_sin_iva * 0.21
 
 # 5 Imprimimos el precio final
 
