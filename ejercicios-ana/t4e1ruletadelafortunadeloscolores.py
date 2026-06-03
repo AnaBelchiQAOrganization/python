@@ -8,20 +8,20 @@ color = input(
 
 def mensaje_color(color_func):
     if color_func == "rojo":
-        print("Tu mensaje es un mensaje de pasión y energía.")
+        mensaje = "pasión y energía."
     elif color_func == "verde":
-        print("Tu mensaje es un mensaje de esperanza y crecimiento.")
+        mensaje = "esperanza y crecimiento."
     elif color_func == "azul":
-        print("Tu mensaje es un mensaje de calma y serenidad.")
+        mensaje = "calma y serenidad."
     elif color_func == "amarillo":
-        print("Tu mensaje es un mensaje de felicidad y optimismo.")
+        mensaje = "felicidad y optimismo."
     else:
-        print("Tu mensaje es un mensaje de sabiduría y creatividad.")
-    return color_func
+        mensaje = "sabiduría y creatividad."
+    return mensaje
 
 
 # 3 Mostramos un mensaje concreto en función del color elegido
 
-mensaje = mensaje_color(color)
+mensaje_mostrado = mensaje_color(color)
 
-print(mensaje)
+print("Tu mensaje es un mensaje de", mensaje_mostrado)
