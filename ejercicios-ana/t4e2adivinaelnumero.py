@@ -7,14 +7,15 @@ numero_elegido = int(input("Escribe un número del 1 al 10: "))
 
 def premiado(numero):
     if numero == 4:
-        print("¡Enhorabuena, has acertado!")
+        mensaje = "¡Enhorabuena, has acertado!"
     else:
-        print("¡Lo sentimos. Has perdido!")
-    return numero
+        mensaje = "¡Lo sentimos. Has perdido!"
+    return mensaje
 
 
 # 3 Imprimimos el mensaje
 
-mensaje = premiado(numero_elegido)
+mensaje_usuaria = premiado(numero_elegido)
 
-print(mensaje)
+print()
+print(mensaje_usuaria)
