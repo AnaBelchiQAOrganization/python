@@ -3,6 +3,6 @@
 for i in range(5):
     color = input("Escribe un color: ")
     if color == "azul":
-        print("¡Enhorabuena! Has sido premiada")
-    else:
-        print("Prueba con otro color")
+        print()
+        print("¡Enhorabuena! Has sido premiada.")
+        break
