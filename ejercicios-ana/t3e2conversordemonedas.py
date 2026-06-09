@@ -10,8 +10,8 @@ def cambiar_moneda(euros):
     a_libra = (euros/0.87)
     return a_dolar, a_libra
 
-# 3 Mostramos los resultados mediante print y una llamada a la función cambiar_moneda
 
+# 3 Mostramos los resultados mediante print y una llamada a la función cambiar_moneda
 
 cambio_dolar, cambio_libra = cambiar_moneda(cantidad_euros)
 
