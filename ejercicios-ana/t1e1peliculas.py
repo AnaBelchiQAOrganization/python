@@ -36,13 +36,13 @@ titulo = "Cinema paradiso (EN)"
 
 director = "Giuseppe Tornatore (EN)"
 
-anyo = 1988
+# anyo = 1988 - Al ser el mismo valor que el declarado anteriormente, no es necesario volver a escribirla
 
 genero = "Drama (EN)"
 
-duracion = 124
+# duracion = 124 - Al ser el mismo valor que el declarado anteriormente, no es necesario volver a escribirla
 
-premios = True
+# premios = True - Al ser el mismo valor que el declarado anteriormente, no es necesario volver a escribirla
 
 # 4. Volvemos a imprimir la info de mi peli favorita
 
