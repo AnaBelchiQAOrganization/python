@@ -3,7 +3,7 @@
 planetas_sistema_solar = ["Mercurio", "Venus", "La Tierra",
                           "Marte", "Júpiter", "Saturno", "Urano", "Neptuno"]
 
-# 2 Pedimos a la usuaria un número: el enunciado es erróneo.
+# 2 Pedimos a la usuaria un número: ¿el enunciado es erróneo?
 # Vamos a pedir un número para poder dar un resultado malo,
 # sin especificar el rango en el que está.
 
