@@ -7,6 +7,8 @@ color = input(
 
 
 def mensaje_color(color_func):
+
+    color_func = color_func.lower()
     if color_func == "rojo":
         mensaje = "pasión y energía."
     elif color_func == "verde":
