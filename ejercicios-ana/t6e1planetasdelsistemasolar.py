@@ -10,7 +10,6 @@ planetas_sistema_solar = ["Mercurio", "Venus", "La Tierra",
 numero = int(input("Escribe un número: "))
 
 # 3 Mostramos el planeta correspondiente. La variable numero será el indice de la lista.
-# Ojo: el indice empieza en 0 no en 1
 # Si el número es inválido mostraremos un mensaje de error
 
 if numero in range(1, 8):
